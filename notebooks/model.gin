@@ -3,7 +3,7 @@ import gin.torch.external_configurables
 get_MNIST.batch_size = 64
 get_MNIST.data_dir = "../../data/raw"
 
-trainloop.epochs = 3
+trainloop.epochs = 5
 trainloop.learning_rate = 0.01
 trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()
