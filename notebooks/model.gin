@@ -9,15 +9,49 @@ trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()
 trainloop.log_dir = "/home/admindme/code/ML22_opdracht1/models/test"
 
+
+## Stap 1
+
 CNN_1_3.num_classes = 10
 CNN_1_3.kernel_size = 3
 CNN_1_3.filter1 = 32
 CNN_1_3.filter2 =  32
 
+CNN_2_3.num_classes = 10
+CNN_2_3.kernel_size = 3
+CNN_2_3.filter1 = 32
+CNN_2_3.filter2 =  32
+
+CNN_3_3.num_classes = 10
+CNN_3_3.kernel_size = 3
+CNN_3_3.filter1 = 32
+CNN_3_3.filter2 =  32
+
+
+## Stap 2
+
 CNN_2_2.num_classes = 10
 CNN_2_2.kernel_size = 3
 CNN_2_2.filter1 = 32
 CNN_2_2.filter2 =  32
+
+CNN_2_4.num_classes = 10
+CNN_2_4.kernel_size = 3
+CNN_2_4.filter1 = 32
+CNN_2_4.filter2 =  32
+
+CNN_3_2.num_classes = 10
+CNN_3_2.kernel_size = 3
+CNN_3_2.filter1 = 32
+CNN_3_2.filter2 =  32
+
+CNN_3_4.num_classes = 10
+CNN_3_4.kernel_size = 3
+CNN_3_4.filter1 = 32
+CNN_3_4.filter2 =  32
+
+
+## Stap 3
 
 CNN_2_2_16_32.num_classes = 10
 CNN_2_2_16_32.kernel_size = 3
@@ -29,11 +63,6 @@ CNN_2_2_32_64.kernel_size = 3
 CNN_2_2_32_64.filter1 = 32
 CNN_2_2_32_64.filter2 =  64
 
-CNN_2_3.num_classes = 10
-CNN_2_3.kernel_size = 3
-CNN_2_3.filter1 = 32
-CNN_2_3.filter2 =  32
-
 CNN_2_3_16_32.num_classes = 10
 CNN_2_3_16_32.kernel_size = 3
 CNN_2_3_16_32.filter1 = 16
@@ -44,47 +73,35 @@ CNN_2_3_32_64.kernel_size = 3
 CNN_2_3_32_64.filter1 = 32
 CNN_2_3_32_64.filter2 =  64
 
-CNN_2_4.num_classes = 10
-CNN_2_4.kernel_size = 3
-CNN_2_4.filter1 = 32
-CNN_2_4.filter2 =  32
 
-# CNN_2_2_64_128.num_classes = 10
-# CNN_2_2_64_128.kernel_size = 3
-# CNN_2_2_64_128.filter1 = 32
-# CNN_2_2_64_128.filter2 =  64
+## Stap 3 Nieuw
 
-# CNN_2_2_128_256.num_classes = 10
-# CNN_2_2_128_256.kernel_size = 3
-# CNN_2_2_128_256.filter1 = 32
-# CNN_2_2_128_256.filter2 =  64
+CNN_2_2_64_128.num_classes = 10
+CNN_2_2_64_128.kernel_size = 3
+CNN_2_2_64_128.filter1 = 64
+CNN_2_2_64_128.filter2 =  128
 
-CNN_3_2.num_classes = 10
-CNN_3_2.kernel_size = 3
-CNN_3_2.filter1 = 32
-CNN_3_2.filter2 =  32
+CNN_2_2_128_256.num_classes = 10
+CNN_2_2_128_256.kernel_size = 3
+CNN_2_2_128_256.filter1 = 128
+CNN_2_2_128_256.filter2 =  256
 
-CNN_3_3.num_classes = 10
-CNN_3_3.kernel_size = 3
-CNN_3_3.filter1 = 32
-CNN_3_3.filter2 =  32
+CNN_2_3_64_128.num_classes = 10
+CNN_2_3_64_128.kernel_size = 3
+CNN_2_3_64_128.filter1 = 64
+CNN_2_3_64_128.filter2 =  128
 
-CNN_3_4.num_classes = 10
-CNN_3_4.kernel_size = 3
-CNN_3_4.filter1 = 32
-CNN_3_4.filter2 =  32
+CNN_3_4_32_64.num_classes = 10
+CNN_3_4_32_64.kernel_size = 3
+CNN_3_4_32_64.filter1 = 32
+CNN_3_4_32_64.filter2 =  64
 
-# CNN_3_4_32_64.num_classes = 10
-# CNN_3_4_32_64.kernel_size = 3
-# CNN_3_4_32_64.filter1 = 32
-# CNN_3_4_32_64.filter2 =  64
+CNN_3_4_64_128.num_classes = 10
+CNN_3_4_64_128.kernel_size = 3
+CNN_3_4_64_128.filter1 = 32
+CNN_3_4_64_128.filter2 =  64
 
-# CNN_3_4_64_128.num_classes = 10
-# CNN_3_4_64_128.kernel_size = 3
-# CNN_3_4_64_128.filter1 = 32
-# CNN_3_4_64_128.filter2 =  64
-
-# CNN_3_4_128_256.num_classes = 10
-# CNN_3_4_128_256.kernel_size = 3
-# CNN_3_4_128_256.filter1 = 32
-# CNN_3_4_128_256.filter2 =  64
+CNN_3_4_128_256.num_classes = 10
+CNN_3_4_128_256.kernel_size = 3
+CNN_3_4_128_256.filter1 = 32
+CNN_3_4_128_256.filter2 =  64
