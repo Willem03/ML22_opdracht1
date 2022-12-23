@@ -12,10 +12,10 @@ trainloop.log_dir = "/home/admindme/code/ML22_opdracht1/models/test"
 
 ## Stap 1
 
-CNN_1_3.num_classes = 10
-CNN_1_3.kernel_size = 3
-CNN_1_3.filter1 = 32
-CNN_1_3.filter2 =  32
+# CNN_1_3.num_classes = 10
+# CNN_1_3.kernel_size = 3
+# CNN_1_3.filter1 = 32
+# CNN_1_3.filter2 =  32
 
 CNN_2_3.num_classes = 10
 CNN_2_3.kernel_size = 3
@@ -25,7 +25,7 @@ CNN_2_3.filter2 =  32
 CNN_3_3.num_classes = 10
 CNN_3_3.kernel_size = 3
 CNN_3_3.filter1 = 32
-CNN_3_3.filter2 =  32
+CNN_3_3.filter2 = 32
 
 
 ## Stap 2
