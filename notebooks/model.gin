@@ -73,6 +73,26 @@ CNN_2_3_32_64.kernel_size = 3
 CNN_2_3_32_64.filter1 = 32
 CNN_2_3_32_64.filter2 =  64
 
+CNN_3_2_16_32.num_classes = 10
+CNN_3_2_16_32.kernel_size = 3
+CNN_3_2_16_32.filter1 = 16
+CNN_3_2_16_32.filter2 = 32
+
+CNN_3_2_32_64.num_classes = 10
+CNN_3_2_32_64.kernel_size = 3
+CNN_3_2_32_64.filter1 = 32
+CNN_3_2_32_64.filter2 =  64
+
+CNN_3_3_16_32.num_classes = 10
+CNN_3_3_16_32.kernel_size = 3
+CNN_3_3_16_32.filter1 = 16
+CNN_3_3_16_32.filter2 = 32
+
+CNN_3_3_32_64.num_classes = 10
+CNN_3_3_32_64.kernel_size = 3
+CNN_3_3_32_64.filter1 = 32
+CNN_3_3_32_64.filter2 =  64
+
 
 ## Stap 3 Nieuw
 
@@ -91,6 +111,11 @@ CNN_2_3_64_128.kernel_size = 3
 CNN_2_3_64_128.filter1 = 64
 CNN_2_3_64_128.filter2 =  128
 
+CNN_3_4_16_32.num_classes = 10
+CNN_3_4_16_32.kernel_size = 3
+CNN_3_4_16_32.filter1 = 32
+CNN_3_4_16_32.filter2 =  64
+
 CNN_3_4_32_64.num_classes = 10
 CNN_3_4_32_64.kernel_size = 3
 CNN_3_4_32_64.filter1 = 32
@@ -98,10 +123,10 @@ CNN_3_4_32_64.filter2 =  64
 
 CNN_3_4_64_128.num_classes = 10
 CNN_3_4_64_128.kernel_size = 3
-CNN_3_4_64_128.filter1 = 32
-CNN_3_4_64_128.filter2 =  64
+CNN_3_4_64_128.filter1 = 64
+CNN_3_4_64_128.filter2 =  128
 
 CNN_3_4_128_256.num_classes = 10
 CNN_3_4_128_256.kernel_size = 3
-CNN_3_4_128_256.filter1 = 32
-CNN_3_4_128_256.filter2 =  64
+CNN_3_4_128_256.filter1 = 128
+CNN_3_4_128_256.filter2 =  256
