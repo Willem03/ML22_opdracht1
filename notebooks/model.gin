@@ -3,7 +3,7 @@ import gin.torch.external_configurables
 get_MNIST.batch_size = 64
 get_MNIST.data_dir = "../../data/raw"
 
-trainloop.epochs = 5
+trainloop.epochs = 30
 trainloop.learning_rate = 0.01
 trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()
@@ -72,6 +72,21 @@ CNN_2_3_32_64.num_classes = 10
 CNN_2_3_32_64.kernel_size = 3
 CNN_2_3_32_64.filter1 = 32
 CNN_2_3_32_64.filter2 =  64
+
+CNN_2_4_16_32.num_classes = 10
+CNN_2_4_16_32.kernel_size = 3
+CNN_2_4_16_32.filter1 = 16
+CNN_2_4_16_32.filter2 =  32
+
+CNN_2_4_32_64.num_classes = 10
+CNN_2_4_32_64.kernel_size = 3
+CNN_2_4_32_64.filter1 = 32
+CNN_2_4_32_64.filter2 =  64
+
+CNN_2_4_64_128.num_classes = 10
+CNN_2_4_64_128.kernel_size = 3
+CNN_2_4_64_128.filter1 = 64
+CNN_2_4_64_128.filter2 =  128
 
 CNN_3_2_16_32.num_classes = 10
 CNN_3_2_16_32.kernel_size = 3
