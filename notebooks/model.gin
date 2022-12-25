@@ -3,8 +3,8 @@ import gin.torch.external_configurables
 get_MNIST.batch_size = 64
 get_MNIST.data_dir = "../../data/raw"
 
-trainloop.epochs = 30
-trainloop.learning_rate = 0.01
+trainloop.epochs = 5
+trainloop.learning_rate = 0.0005
 trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()
 trainloop.log_dir = "/home/admindme/code/ML22_opdracht1/models/test"
@@ -12,10 +12,10 @@ trainloop.log_dir = "/home/admindme/code/ML22_opdracht1/models/test"
 
 ## Stap 1
 
-# CNN_1_3.num_classes = 10
-# CNN_1_3.kernel_size = 3
-# CNN_1_3.filter1 = 32
-# CNN_1_3.filter2 =  32
+CNN_1_3.num_classes = 10
+CNN_1_3.kernel_size = 3
+CNN_1_3.filter1 = 32
+CNN_1_3.filter2 =  32
 
 CNN_2_3.num_classes = 10
 CNN_2_3.kernel_size = 3
